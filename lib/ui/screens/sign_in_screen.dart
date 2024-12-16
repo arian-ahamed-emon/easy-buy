@@ -114,7 +114,7 @@ class _SignInScreenState extends State<SignInScreen> {
             "Continue with social media & OTP",
             style: TextStyle(fontSize: 16, color: Colors.grey),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           OverflowBar(

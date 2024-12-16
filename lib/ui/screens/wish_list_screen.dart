@@ -142,7 +142,7 @@ class _WishListScreenState extends State<WishListScreen> {
                               const SizedBox(height: 4),
                               Text('Rating: ${product.rating} ★'),
                               const SizedBox(height: 4),
-                              Text('${product.sells} Sale',style: TextStyle(color: Colors.grey),),
+                              Text('${product.sells} Sale',style: const TextStyle(color: Colors.grey),),
                               const SizedBox(height: 8),
                               Row(
                                 children: [
@@ -166,7 +166,7 @@ class _WishListScreenState extends State<WishListScreen> {
                                           : 'Sold Out',
                                     ),
                                   ),
-                                  SizedBox(width: 16,),
+                                  const SizedBox(width: 16,),
                                   IconButton(
                                     onPressed: () {
                                       setState(() {

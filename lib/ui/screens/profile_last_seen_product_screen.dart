@@ -13,7 +13,7 @@ class _LastSeenProductScreenState extends State<LastSeenProductScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Last Seen Product'),
+        title: const Text('Last Seen Product'),
       ),
 
       );
